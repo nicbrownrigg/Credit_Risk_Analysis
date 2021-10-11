@@ -1,8 +1,8 @@
 # Credit_Risk_Analysis
 
-## Summary
+## Overview
 
-The general purpose of this project is to evaluate credit risk amongst a large data set, which looking at lone statistics is very complicated to understand and parts through that data without utilizing something like machine learning to sift through all of the results you have. We wanted to simplify the process of understanding if someone was a hello or a high-risk potential client for us by creating a model in various machine learning processes utilizing the imbalanced-learn and scikit-learn libraries. We tested a variety of models and strategies, will utilized oversampling, SMOTE, undersampling, random forest, easy ensemble adaBoost classifier, and SMOTEEN. Through utilizing a variety of methods we can compare our accuracy, precision, and recall to determine which method should be utilized in the future to produce a more useful prediction.
+The general purpose of this project is to evaluate credit risk amongst a large data set, which looking at lone statistics is very complicated to understand and parts through that data without utilizing something like machine learning to sift through all of the results you have. We wanted to simplify the process of understanding if someone was a hello or a high-risk potential client for us by creating a model in various machine learning processes utilizing the imbalanced-learn and scikit-learn libraries. We tested a variety of models and strategies, will utilized oversampling, SMOTE, undersampling, random forest, easy ensemble adaBoost classifier, and SMOTEENN. Through utilizing a variety of methods we can compare our accuracy, precision, and recall to determine which method should be utilized in the future to produce a more useful prediction.
 
 ## Results
 
@@ -29,3 +29,8 @@ The general purpose of this project is to evaluate credit risk amongst a large d
 - And finally the easy ensemble adaBoost classifier had a balanced accuracy score of 93.32%, a precision of 9%, and a recall of 92%.
 
 ![image]
+
+## Summary
+
+It appears that a majority of the models had a big issue with accuracy in terms of predicting whether there is a high-risk or low risk possibility for our customers. Looking at the resampling models, Native random oversampling and SMOTEENN appeared to be the most useful production models of that prediction style. However moving on to the ensemble model types both of them beats the re-sampling data styles however easy ensemble classifier had the highest accuracy precision and recall percentage of all the models. I would recommend Easy ensemble to be utilized as the predictor for Credit risk amongst our loan status of our customers.
+
